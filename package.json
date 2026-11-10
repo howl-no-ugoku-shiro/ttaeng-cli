@@ -1,0 +1,14 @@
+{
+  "name": "ttaeng-cli",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Operator-run Reddit Data API client used to post about Ddaeng Workout Timer. Every post and reply is approved by a human before it is sent; nothing runs unattended.",
+  "scripts": {
+    "reddit": "node scripts/reddit/reddit.mjs",
+    "test": "node --test scripts/reddit/lib.test.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
